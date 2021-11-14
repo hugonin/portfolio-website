@@ -1,0 +1,48 @@
+[
+    {
+        "company": "CGI",
+        "position": "Developer",
+        "date": "Juin 2021 - Present",
+        "description": [
+            {
+                "id": "1",
+                "content": [
+                    "Hashtag drinking vinegar scenester mumblecore snackwave four dollar toast, lumbersexual XOXO. Cardigan church-key pabst, biodiesel vexillologist viral squid",
+                    "Franzen af pitchfork, mumblecore try-hard kogi XOXO roof party la croix cardigan neutra retro tattooed copper mug. Meditation lomo biodiesel scenester",
+                    "Fam VHS enamel pin try-hard echo park raw denim unicorn fanny pack vape authentic. Helvetica fixie church-key, small batch jianbing messenger bag scenester +1"
+                ]
+            }
+        ]
+    },
+    {
+        "company": "Altarn",
+        "position": "Test Engineer",
+        "date": "Jan 2019 - Nov 2020",
+        "description": [
+            {
+                "id": "2",
+                "content": [
+                    "Hashtag drinking vinegar scenester mumblecore snackwave four dollar toast, lumbersexual XOXO. Cardigan church-key pabst, biodiesel vexillologist viral squid",
+                    "Franzen af pitchfork, mumblecore try-hard kogi XOXO roof party la croix cardigan neutra retro tattooed copper mug. Meditation lomo biodiesel scenester",
+                    "Fam VHS enamel pin try-hard echo park raw denim unicorn fanny pack vape authentic. Helvetica fixie church-key, small batch jianbing messenger bag scenester +1"
+                ]
+            }
+        ]
+    },
+    {
+        "company": "Nexans",
+        "position": "R&D Engineer",
+        "date": "Jan 2011 - Aout 2018",
+        "description": [
+            {
+                "id": "3",
+                "content": [
+                    "Hashtag drinking vinegar scenester mumblecore snackwave four dollar toast, lumbersexual XOXO. Cardigan church-key pabst, biodiesel vexillologist viral squid",
+                    "Franzen af pitchfork, mumblecore try-hard kogi XOXO roof party la croix cardigan neutra retro tattooed copper mug. Meditation lomo biodiesel scenester",
+                    "Fam VHS enamel pin try-hard echo park raw denim unicorn fanny pack vape authentic. Helvetica fixie church-key, small batch jianbing messenger bag scenester +1"
+                ]
+            }
+        ]
+    }
+
+]

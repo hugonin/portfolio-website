@@ -1,0 +1,53 @@
+[
+    {
+        "projectNumber": "1",
+        "title": "My Gatsby Blog",
+        "slug": "personnal-blog",
+        "url": "https://mygatsbyblog34579.gatsbyjs.io/",
+        "github":"https://github.com/hugonin/my-gatsby-blog",
+        "image": "./images/desktop_blog_1.png",
+        "description": "Personal blog using a Static Site Generator while ensuring website’s speed and performance optimized with JAMStack",
+        "stack": ["Gatsby - ","React - ","GraphQL"]
+    },
+
+    {
+        "projectNumber": "2",
+        "title": "JeeAsH Clothing",
+        "slug": "jeeash-clothing",
+        "url": "https://jeeash-live.herokuapp.com/",
+        "github":"https://github.com/hugonin/crwn-clothing",
+        "image": "./images/desktop_store.png",
+        "description": "E-commerce project built with React",
+        "stack": ["React - ","Firebase - ", "Stripe API"]
+    },
+    {
+        "projectNumber": "3",
+        "title": "Monsters Rolodex",
+        "slug": "monsters-rolodex",
+        "url": "https://hugonin.github.io/monsters-rolodex/",
+        "urlCode":"https://github.com/hugonin/monsters-rolodex",
+        "image": "./images/desktop_monsters.png",
+        "description": "Monsters Rolodex is a react web app which filters out the monsters cards by what we type in the searchbox",
+        "stack": ["React - ", "JSX "]
+    },
+    {
+        "projectNumber": "4",
+        "title": "Landing Page",
+        "slug": "landing-page",
+        "url": "https://hugonin.github.io/landing-page/",
+        "github":"https://github.com/hugonin/landing-page",
+        "image": "./images/desktop_landing.png",
+        "description": "Multi-section landing page, with a dynamically updating navigational menu based on the amount of content that is added to the page",
+        "stack": ["Javascript - ", "DOM"]
+    },
+    {
+        "projectNumber": "5",
+        "title": "Styled Blog Website",
+        "slug": "styles-blog-website",
+        "url": "https://hugonin.github.io/personal-blog/",
+        "github":"https://github.com/hugonin/personal-blog",
+        "image": "./images/desktop_blog_2.jpg",
+        "description": "Multi-page blog website, using best practices for content and page styling with HTML and CSS.",
+        "stack": ["Flexbox - ", "CSS Grid"]
+    }
+]
