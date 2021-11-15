@@ -1,0 +1,56 @@
+.my-services {
+    background-color: #14274e;
+    background-image: url(../../images/services-bg.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: #f1f6f9;
+    text-align: center;
+  }
+  
+  .services-title {
+    margin-bottom: 0.25em;
+    color: #9ba4b4;
+    position: relative;
+  }
+  
+  .services-title::after {
+    content: "";
+    display: block;
+    width: 2em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: #f1f6f9;
+    opacity: 0.25;
+  }
+  
+  .services-section {
+    margin-bottom: 4em;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.5em 2.5em;
+    background: #9ba4b4;
+    color: #14274e;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 900;
+    transition: transform 200ms ease-in-out;
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+  }
+  
+  @media (min-width: 800px) {
+    .services-section {
+      display: flex;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  

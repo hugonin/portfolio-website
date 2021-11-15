@@ -1,0 +1,16 @@
+.my-work {
+  background-color: #14274e;
+  color: #f1f6f9;
+  text-align: center;
+}
+
+.work-title {
+  margin-bottom: 0.25em;
+}
+
+.work-subtitle {
+  color: #9ba4b4;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 2em;
+}

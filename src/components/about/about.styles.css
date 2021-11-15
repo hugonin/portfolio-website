@@ -1,0 +1,75 @@
+/* About Me section */
+
+.about-me {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .about-body {
+    background: #f1f6f9;
+    background-image: url("https://www.transparenttextures.com/patterns/climpek.png");
+    color: #14274e;
+    margin: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .about-image {
+    box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+      0.125em 0.125em 0.125em rgba(0, 0, 0, 0.15);
+  }
+  
+  .about-title {
+    margin-bottom: 0.25em;
+  }
+  
+  .section-subtitle {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .section-about {
+    composes: section-subtitle;
+    background: #9ba4b4;
+    padding: 0.25em 1em;
+    font-family: "Source Code Pro", monospace;
+    margin-bottom: 1em;
+  }
+  
+  p {
+    margin-bottom: 1em;
+  }
+  
+  @media (min-width: 600px) {
+    .about-me {
+      display: grid;
+      grid-template-columns: 1fr 200px;
+      grid-template-areas:
+        "title img"
+        "subtitle img"
+        "text img";
+      grid-column-gap: 2em;
+    }
+  
+    .about-title {
+      grid-area: title;
+    }
+  
+    .section-subtitle {
+      grid-column: 1 / -1;
+      grid-row: 2;
+      position: relative;
+      left: -1em;
+      width: calc(100% + 2em);
+      padding-left: 1em;
+      padding-right: calc(200px + 4em);
+    }
+  
+    .about-image {
+      grid-area: img;
+      position: relative;
+      z-index: 2;
+    }
+  }
+  

@@ -1,21 +1,22 @@
 import React from "react";
-import { Link } from "gatsby"
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import "./hero.styles.css"
+
 
 const Hero = () => {
   return (
     <div>
       <section className="intro" id="home" data-nav="Home">
         <div>
-          <h1 className="section-title">
+          <h1 className="hero-title">
             Hello, I'm<strong>Jean-Hugues DOUMBE KINGUE </strong>
           </h1>
-          <p className="section subtitle">Software Engineer</p>
+          <p className="hero-subtitle">Software Engineer</p>
         </div>
-        <Link className="btn" to="/#about">
+        <AnchorLink className="btn" to="/#about">
           About Me
-        </Link>
+        </AnchorLink>
       </section>
     </div>
   );

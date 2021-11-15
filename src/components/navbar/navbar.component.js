@@ -3,7 +3,6 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import { FaAlignRight } from "react-icons/fa"
 import linksToPages from "../../../data/links-to-pages"
-//import logo from "../../images/logo.png"
 
 import "./navbar.styles.css"
 

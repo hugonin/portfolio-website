@@ -1,0 +1,85 @@
+
+.main-entry {
+    display: grid;
+    gap: 1em;
+    margin-bottom: 1em;
+    grid-template-areas:
+      "image"
+      "title"
+      "description"
+      "tool"
+      "button";
+  }
+  
+.image-entry{
+    grid-area: image;
+    margin-bottom: 1em;
+    width: 100%;
+    object-fit: cover;
+}
+  
+.title-entry {
+    grid-area: title;
+    color: #9ba4b4;
+    font-size: 1.5rem;
+    text-decoration: none;
+ }
+ 
+
+.subtitle-entry {
+  grid-area: description;
+  color: #f1f6f9;
+  padding: .25em 1em;
+  margin-bottom: 1em;
+}
+
+.tools-entry {
+  grid-area: tool;
+  color: #f1f6f9;
+}
+
+.tools-title {
+  color: #9ba4b4;
+  font-weight: 700;
+}
+
+.button-entry, .button-secondary {
+    grid-area: button;
+    display: inline-block;
+    padding: .5em 2.5em;
+    background: #9ba4b4;
+    color: #14274e;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 900;
+    transition: transform 200ms ease-in-out;
+}
+
+.button-secondary {
+  background: #f1f6f9;
+  opacity: 0.3;
+  margin: .5em;
+}
+
+.button-entry:hover, .button-secondary:hover {
+    transform: scale(1.1);
+}
+
+
+
+@media (min-width: 600px) {
+  .main-entry {
+    grid-template-areas:
+      "title image"
+      "description image"
+      "tool image"
+      "button image";
+    grid-column-gap: 4em;
+    grid-template-columns: 1fr 40%;
+    grid-template-rows: min-content min-content min-content 1fr;
+  }
+}
+  
