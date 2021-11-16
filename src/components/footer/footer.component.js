@@ -1,7 +1,12 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "@reach/router"
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa"
+//import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa"
+import {
+  FaLinkedin,
+  FaGithubSquare,
+  FaTwitterSquare,
+} from "react-icons/fa"
 
 import "./footer.styles.css"
 
@@ -41,7 +46,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="social-list-link"
             >
-              <FaTwitter />
+              <FaTwitterSquare />
             </a>
           </li>
           <li className="social-list-item">
@@ -51,7 +56,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="social-list-link"
             >
-              <FaGithub />
+              <FaGithubSquare />
             </a>
           </li>
         </ul>
